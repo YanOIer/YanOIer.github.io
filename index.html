@@ -10,5 +10,21 @@
   </head>
   <body>
     <div id="root"></div>
+    <a id="codeprep-entry" href="https://yanoier.github.io/codeprep-agent/" target="_blank" rel="noopener">
+      <span class="ce-label">最新作品 · NEW</span>
+      <span class="ce-title">CodePrep Agent</span>
+      <span class="ce-desc">算法面试大字备考 · 左题右读 · 20 道高频题知识点精讲</span>
+      <span class="ce-cta">在线刷题 →</span>
+    </a>
+    <style>
+      #codeprep-entry{position:fixed;right:24px;bottom:24px;z-index:9999;display:flex;flex-direction:column;gap:6px;width:264px;padding:16px 18px 16px 20px;background:#fff;border:1px solid #e6e2d8;border-radius:12px;box-shadow:0 8px 30px rgba(20,20,20,.08);text-decoration:none;color:#1a1a1a;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;transition:transform .2s ease,box-shadow .2s ease}
+      #codeprep-entry::before{content:"";position:absolute;left:0;top:18px;bottom:18px;width:3px;border-radius:3px;background:#b3392c}
+      #codeprep-entry:hover{transform:translateY(-3px);box-shadow:0 14px 40px rgba(20,20,20,.12)}
+      #codeprep-entry .ce-label{font-size:11px;letter-spacing:.18em;color:#9b9587}
+      #codeprep-entry .ce-title{font-size:18px;font-weight:700}
+      #codeprep-entry .ce-desc{font-size:12px;line-height:1.6;color:#6b675c}
+      #codeprep-entry .ce-cta{margin-top:4px;font-size:13px;font-weight:600;color:#b3392c}
+      @media (max-width:640px){#codeprep-entry{right:12px;left:12px;bottom:12px;width:auto}}
+    </style>
   </body>
 </html>
